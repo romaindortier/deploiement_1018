@@ -6,7 +6,8 @@
     "require": {
         "composer/installers": "^1.0.24",
         "drush/drush": "^9.4",
-        "drupal/core": "^8.5"
+        "drupal/core": "^8.5",
+        "drupal/fb_likebox": "^2.0"
     },
     "require-dev": {
         "drupal/console": "^1.8"

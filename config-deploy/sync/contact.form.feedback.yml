@@ -1,4 +1,4 @@
-uuid: 3bd32c5d-c4d0-4325-b24c-d5ec06208565
+uuid: 6fd47bba-4a56-4659-878d-db858d87d92e
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - slimbenkhelifa@gmail.com
+  - romain.dortier@gmail.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

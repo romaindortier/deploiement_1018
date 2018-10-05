@@ -1,4 +1,4 @@
-uuid: 7f14d56b-7003-4724-8f6e-8166f9ebafe2
+uuid: 6273ab96-0b15-433a-8836-d34d15139b1a
 langcode: en
 status: true
 dependencies:
@@ -8,11 +8,11 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - image.style.large
     - node.type.article
-    - responsive_image.styles.my_responsive_style
   module:
     - comment
-    - responsive_image
+    - image
     - text
     - user
 _core:
@@ -39,11 +39,11 @@ content:
       pager_id: 0
     third_party_settings: {  }
   field_image:
-    type: responsive_image
+    type: image
     weight: -1
     region: content
     settings:
-      responsive_image_style: my_responsive_style
+      image_style: large
       image_link: ''
     third_party_settings: {  }
     label: hidden
