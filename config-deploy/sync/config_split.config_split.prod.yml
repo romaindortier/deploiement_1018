@@ -1,0 +1,16 @@
+uuid: 4ff8fd34-4c71-4650-aee8-44b536402b3d
+langcode: en
+status: true
+dependencies: {  }
+id: prod
+label: prod
+description: ''
+folder: ../config-deploy/prod
+module:
+  webform: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

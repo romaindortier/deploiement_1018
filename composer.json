@@ -8,7 +8,8 @@
         "drush/drush": "^9.4",
         "drupal/core": "^8.5",
         "drupal/fb_likebox": "^2.0",
-        "drupal/config_split": "^1.4"
+        "drupal/config_split": "^1.4",
+        "drupal/webform": "^5.0@RC"
     },
     "require-dev": {
         "drupal/console": "^1.8",
