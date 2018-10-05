@@ -1,0 +1,20 @@
+uuid: c1aaeb6e-3d86-4219-9f05-07d9a1921110
+langcode: en
+status: true
+dependencies:
+  module:
+    - performance_tests
+  theme:
+    - bartik
+id: lazybuildedblock
+theme: bartik
+region: sidebar_second
+weight: -10
+provider: null
+plugin: perftests_lazybuilded_block
+settings:
+  id: perftests_lazybuilded_block
+  label: 'LazyBuilded block'
+  provider: performance_tests
+  label_display: visible
+visibility: {  }
