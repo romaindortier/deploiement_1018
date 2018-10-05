@@ -6,10 +6,10 @@ id: prod
 label: prod
 description: ''
 folder: ../config-deploy/prod
-module:
-  webform: 0
+module: {  }
 theme: {  }
-blacklist: {  }
+blacklist:
+  - 'webform.webform.*'
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
